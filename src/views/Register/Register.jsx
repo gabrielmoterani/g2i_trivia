@@ -40,7 +40,7 @@ const Register = ({navigation}) => {
     }, []);
 
     return ( 
-        <LinearGradient style={styles.container} colors={['#2C7EF8', '#2C7EF8', '#07ADD6']}>
+        <LinearGradient style={styles.container} colors={COLORS.gradients[0]}>
             <View style={styles.registerSection}>
                 <Image
                     style={styles.brandLogo}

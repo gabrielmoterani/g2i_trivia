@@ -8,6 +8,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 // Screens Import
 import WelcomeScreen from '../views/Welcome';
 import RegisterScreen from '../views/Register';
+import QuizScreen from '../views/Quizz';
 
 const Stack = createStackNavigator()
 
@@ -19,8 +20,18 @@ const MainNavigation = () => {
                     name="Register"
                     component={RegisterScreen}
                     options={{headerShown: false}}
+
                 />
-                <Stack.Screen name="Welcome" component={WelcomeScreen} />
+                <Stack.Screen 
+                    name="Welcome"
+                    component={WelcomeScreen}
+                    options={{headerShown: false}}
+                />
+                <Stack.Screen 
+                    name="Quiz"
+                    component={QuizScreen}
+                    options={{headerShown: false}}
+                />
             </Stack.Navigator>
         </NavigationContainer>
      );
