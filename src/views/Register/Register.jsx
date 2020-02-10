@@ -24,7 +24,7 @@ const Register = ({navigation}) => {
             redirectToWelcomePage()
         }
         catch (error) {
-            Alert("funciodddna")
+            Alert(error)
         } 
     }
 

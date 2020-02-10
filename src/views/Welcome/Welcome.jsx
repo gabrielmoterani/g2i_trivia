@@ -1,6 +1,6 @@
 // React Imports
 import React from 'react'
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 
 
 // Libs Import
@@ -10,7 +10,6 @@ import SafeAreaView from 'react-native-safe-area-view';
 
 //Static Imports 
 import COLORS from '../../config/theme';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
 const Welcome = ({navigation}) => {
     return (       
