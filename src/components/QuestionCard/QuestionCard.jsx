@@ -26,7 +26,6 @@ const QuestionCard = ({gradientColor, question, onSelectAnswer}) => {
         let result = correctAnswer === answer ? true : false;
         setIsCorrect(result)
         onSelectAnswer(result);
-        console.log("iscorrect", result)
     }
 
     const setAnswerStyle = (answer) => {
@@ -48,9 +47,10 @@ const QuestionCard = ({gradientColor, question, onSelectAnswer}) => {
             <View style={styles.answersContainer}>
                 {answers.map(answer => (
                     <TouchableOpacity
-                    disabled={selectedAnswer !== ''}
-                    onPress={answer => {handleSelect(answer)}}
-                    key={answer} style={setAnswerStyle(answer)}>
+                        disabled={selectedAnswer !== ''}
+                        onPress={() => {handleSelect(answer)}}
+                        key={answer} style={setAnswerStyle(answer)}
+                    >
                        <Text style={selectedAnswer !== '' ? {color: COLORS.primary} : ''}>{answer}</Text> 
                     </TouchableOpacity>
                 ))}

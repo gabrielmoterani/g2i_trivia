@@ -44,6 +44,7 @@ const Quiz = ({navigation}) => {
     }, []);
 
     const handleSelectAnswer = (isCorrect) => {
+        console.log(isCorrect)
         let history = answerHistory;
         let actualQuestion = questions[actualQuestionIndex];
         actualQuestion['answerWasCorrect'] = isCorrect,
@@ -72,7 +73,7 @@ const Quiz = ({navigation}) => {
                             question={questions[actualQuestionIndex]}
                         />
                         <View style={styles.footer}>
-                            <Text style={styles.footerText}>{actualQuestionIndex} of {questions.length}</Text>
+                            <Text style={styles.footerText}>{actualQuestionIndex + 1} of {questions.length}</Text>
                         </View>
                     </>
                 }
