@@ -11,7 +11,7 @@ const Alert = (message) => {
             'Oops',
             message,
             [
-              {text: 'OK', onPress: () => console.log('OK Pressed')},
+              {text: 'OK', onPress: () => {}},
             ],
             {cancelable: false},
           )
