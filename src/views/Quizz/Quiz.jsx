@@ -44,7 +44,6 @@ const Quiz = ({navigation}) => {
     }, []);
 
     const handleSelectAnswer = (isCorrect) => {
-        console.log(isCorrect)
         let history = answerHistory;
         let actualQuestion = questions[actualQuestionIndex];
         actualQuestion['answerWasCorrect'] = isCorrect,
@@ -87,7 +86,8 @@ const styles = StyleSheet.create({
     container: {
       flex: 1,
       alignItems: 'center',
-      justifyContent: 'space-between'
+      justifyContent: 'space-between',
+      paddingVertical: 20
     },
     categoryContainer:{},
     footer: {

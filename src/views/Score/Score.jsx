@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        paddingVertical: 20
     },
     scoreContainer: {
         marginTop: 20

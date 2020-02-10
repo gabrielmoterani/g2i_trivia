@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, StyleSheet, Text} from 'react-native';
+import {View, StyleSheet, Text, ScrollView} from 'react-native';
 
 
 //Libs Import
@@ -13,9 +13,9 @@ const TriviaResult = ({questions}) => {
     const entities = new Entities();
 
     return ( 
-        <View style={styles.container}>
-            {questions.map(question => (
-                <View key={question.id}>
+        <ScrollView style={styles.container}>
+            {questions.map((question, index) => (
+                <View key={index}>
                     <View style={styles.text(question.answerWasCorrect)}>
                         <Text style={styles.text(question.answerWasCorrect)}>
                             {question.answerWasCorrect ? '+' : '-'} {' '}
@@ -24,7 +24,7 @@ const TriviaResult = ({questions}) => {
                     </View>
                 </View>
             ))}
-        </View>
+        </ScrollView>
      );
 }
 
@@ -32,8 +32,6 @@ const TriviaResult = ({questions}) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'space-between',
-        alignItems: 'stretch',
         marginVertical: 50,
         marginHorizontal: 20
     },
@@ -41,7 +39,8 @@ const styles = StyleSheet.create({
         color: isCorrect ? COLORS.green : COLORS.pink,
         textAlign: 'justify',
         fontSize: 15,
-        fontWeight: '500'
+        fontWeight: '500',
+        marginBottom: 10
     }),
     icon: {
         fontSize: 30,
