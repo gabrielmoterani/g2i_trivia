@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test QuestionCard Component should render properly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "borderRadius": 10,
+      "height": 250,
+      "marginTop": 120,
+      "width": "80%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+        }
+      }
+    >
+      In Undertale, having a "Fun Value" set to 56-57 will play the "Wrong Number Song Call".
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flex": 1,
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      disabled={false}
+      key="True"
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#333",
+          "borderRadius": 20,
+          "borderWidth": 1,
+          "marginHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style=""
+      >
+        True
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      disabled={false}
+      key="False"
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#333",
+          "borderRadius": 20,
+          "borderWidth": 1,
+          "marginHorizontal": 20,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style=""
+      >
+        False
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

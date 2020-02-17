@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Welcome Screen should render properly 1`] = `
+<LinearGradient
+  colors={
+    Array [
+      "#2C7EF8",
+      "#2C7EF8",
+      "#07ADD6",
+    ]
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "paddingVertical": 20,
+    }
+  }
+>
+  <SafeAreaView
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "paddingVertical": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "flex": 1,
+          "marginLeft": 10,
+          "marginTop": 30,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 30,
+            "fontWeight": "bold",
+            "textAlign": "left",
+            "width": 250,
+          }
+        }
+      >
+        Welcome to the Trivia Chalenge!
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 0.5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginHorizontal": 70,
+            "textAlign": "center",
+          }
+        }
+      >
+        You will be presented with
+        <Text
+          style={
+            Object {
+              "color": "#49dab4",
+            }
+          }
+        >
+           True 
+        </Text>
+        or
+        <Text
+          style={
+            Object {
+              "color": "#ff3859",
+            }
+          }
+        >
+           False 
+        </Text>
+        questions.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 0.5,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginHorizontal": 70,
+            "textAlign": "center",
+          }
+        }
+      >
+        Can you score 100%?
+      </Text>
+    </View>
+    <View
+      style={Object {}}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#f00d00",
+            "borderRadius": 5,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontWeight": "bold",
+              "textAlign": "center",
+              "textTransform": "uppercase",
+              "width": 220,
+            }
+          }
+        >
+          Begin
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </SafeAreaView>
+</LinearGradient>
+`;

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Register Screen should render properly 1`] = `
+<LinearGradient
+  colors={
+    Array [
+      "#2C7EF8",
+      "#2C7EF8",
+      "#07ADD6",
+    ]
+  }
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "fontWeight": "500",
+          "marginBottom": 20,
+        }
+      }
+    >
+      Welcome to Trivia Game
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Type your name to play!"
+      placeholderTextColor="#333"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "backgroundColor": "#fff",
+          "borderRadius": 5,
+          "marginBottom": 20,
+          "paddingVertical": 15,
+          "textAlign": "center",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <TouchableOpacity
+      activeOpacity={0.2}
+      disabled={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "backgroundColor": "#f00d00",
+          "borderRadius": 5,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Play!
+      </Text>
+    </TouchableOpacity>
+  </View>
+</LinearGradient>
+`;

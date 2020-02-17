@@ -42,11 +42,7 @@ const Register = ({navigation}) => {
     return ( 
         <LinearGradient style={styles.container} colors={COLORS.gradients[0]}>
             <View style={styles.registerSection}>
-                <Image
-                    style={styles.brandLogo}
-                    source={LOGO}
-                />
-                <Text style={styles.label}>Welcome to G2i Trivia Game</Text>
+                <Text style={styles.label}>Welcome to Trivia Game</Text>
                 <TextInput
                     style={styles.input}
                     value={name}

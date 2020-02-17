@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Result Card Component should render properly 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "flex": 1,
+      "marginHorizontal": 20,
+      "marginVertical": 50,
+    }
+  }
+>
+  <View
+    key="0"
+  >
+    <View
+      style={
+        Object {
+          "color": "#49dab4",
+          "fontSize": 15,
+          "fontWeight": "500",
+          "marginBottom": 10,
+          "textAlign": "justify",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#49dab4",
+            "fontSize": 15,
+            "fontWeight": "500",
+            "marginBottom": 10,
+            "textAlign": "justify",
+          }
+        }
+      >
+        +
+         
+         
+        In Undertale, having a "Fun Value" set to 56-57 will play the "Wrong Number Song Call".
+      </Text>
+    </View>
+  </View>
+  <View
+    key="1"
+  >
+    <View
+      style={
+        Object {
+          "color": "#ff3859",
+          "fontSize": 15,
+          "fontWeight": "500",
+          "marginBottom": 10,
+          "textAlign": "justify",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#ff3859",
+            "fontSize": 15,
+            "fontWeight": "500",
+            "marginBottom": 10,
+            "textAlign": "justify",
+          }
+        }
+      >
+        -
+         
+         
+        The binary number "101001101" is equivalent to the Decimal number "334"
+      </Text>
+    </View>
+  </View>
+</ScrollViewMock>
+`;
